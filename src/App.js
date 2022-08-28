@@ -1,4 +1,5 @@
 import './App.css';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import NavBar from './components/Navbar/NavBar';
 
 function App() {
@@ -6,17 +7,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <ItemListContainer greeting="Bienvenidos a TuEntrada.com"/>
       </header>
     </div>
   );
